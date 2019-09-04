@@ -20,7 +20,10 @@ def hopper
 end
 
 def alan_kay_is_known_for
-	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+	my_hash = {first: "I'm first!", second: "I'm second!"}
+my_hash[:third] = "I'm third!"
+ 
+puts my_hash
 	
 	programmer_hash = 
  		{
